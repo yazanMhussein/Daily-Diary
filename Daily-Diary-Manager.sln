@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daily-Diary-Manager", "Daily-Diary-Manager\Daily-Diary-Manager.csproj", "{2972F8C1-8F02-4484-B336-ED4348BC628B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Daily-Diary-Manager", "Daily-Diary-Manager\Daily-Diary-Manager.csproj", "{2972F8C1-8F02-4484-B336-ED4348BC628B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiaryManager", "DiaryManager", "{DB85AF30-5E49-4331-9125-A96B686C2EF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiaryManagerTests", "DiaryManagerTests", "{665E835C-E6A4-4BB1-80E0-A8279D61DF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyDiaryTests", "DailyDiaryTests\DailyDiaryTests.csproj", "{757AD3E6-2109-4EBD-A0A9-BB81441C0535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{2972F8C1-8F02-4484-B336-ED4348BC628B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2972F8C1-8F02-4484-B336-ED4348BC628B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2972F8C1-8F02-4484-B336-ED4348BC628B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757AD3E6-2109-4EBD-A0A9-BB81441C0535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757AD3E6-2109-4EBD-A0A9-BB81441C0535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757AD3E6-2109-4EBD-A0A9-BB81441C0535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757AD3E6-2109-4EBD-A0A9-BB81441C0535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2972F8C1-8F02-4484-B336-ED4348BC628B} = {DB85AF30-5E49-4331-9125-A96B686C2EF0}
+		{757AD3E6-2109-4EBD-A0A9-BB81441C0535} = {665E835C-E6A4-4BB1-80E0-A8279D61DF50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E5329DA-FA37-4BCA-801F-D2756956B69D}
